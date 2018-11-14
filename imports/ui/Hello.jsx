@@ -78,7 +78,7 @@ export default class Hello extends Component {
     ]
     const obj = {
       text: '',
-      r: ''
+      r: 'strawberry'
     }
     return (
     <AutoForm schema={schSingle} model = {obj} onSubmit={this.showResultSingle}>
@@ -98,7 +98,7 @@ export default class Hello extends Component {
     ]
     const obj = {
       text: '',
-      r: []
+      r: ['vanilla']
     }
     return (
     <AutoForm schema={sch} model = {obj} onSubmit={this.showResult}>
